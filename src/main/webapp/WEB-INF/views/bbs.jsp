@@ -1,14 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>게시판</title>
 </head>
 <body>
-	<h1>${name}</h1>
-	<ol>${history}</ol>
-	<ol>${hannaradang}</ol>
+
+	<div class="container">
+	<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
+		<thead>
+		<tr>
+			<th style="background-color: #eeeeee; text-align: center;">번호</th>
+			<th style="background-color: #eeeeee; text-align: center;">제목</th>
+			<th style="background-color: #eeeeee; text-align: center;">작성자</th>
+			<th style="background-color: #eeeeee; text-align: center;">작성일</th>
+		</tr>
+	</thead>	
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>안녕하세요</td>
+			<td>홍길동</td>
+			<td>2017-05-04</td>
+		</tr>
+	</tbody>
+	</table>
+	<a href="./write" class="btn btn-primary pull-right">글쓰기</a>
+	</div>
+
 </body>
 </html>
