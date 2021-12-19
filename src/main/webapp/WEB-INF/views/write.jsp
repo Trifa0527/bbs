@@ -9,7 +9,7 @@
 <body>
 
 	<div class="container">
-	<form action="/" method="POST">
+	<form method="get" action="view">
 	<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
 		<thead>
 		<tr>
@@ -18,16 +18,16 @@
 	</thead>	
 	<tbody>
 		<tr>
-			<td><input type="text" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
+			<td><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
 		</tr>
 		
 		<tr>
-			<td><textarea hint="asdf" name="bbsContent" maxlength="2048" style="heigth: 700px;"></textarea></td>
+			<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength="2048" style="heigth: 350px;"></textarea></td>
 		</tr>
 		
 	</tbody>
 	</table>
-		<input type="submit" value="글쓰기">
+		<input type="submit" class="btn btn-primary pull-right" value="글쓰기">
 	</form>
 	</div>
 

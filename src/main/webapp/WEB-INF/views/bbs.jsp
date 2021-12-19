@@ -18,16 +18,11 @@
 			<th style="background-color: #eeeeee; text-align: center;">작성일</th>
 		</tr>
 	</thead>	
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td>안녕하세요</td>
-			<td>홍길동</td>
-			<td>2017-05-04</td>
-		</tr>
-	</tbody>
+	<tbody> ${getList} </tbody>
 	</table>
-	<a href="./write" class="btn btn-primary pull-right">글쓰기</a>
+	<a href="bbs" class="btn btn-success btn-arraw-left">이전</a>
+	<a href="bbs" class="btn btn-success btn-arraw-left">다음</a>
+	<a href="write" class="btn btn-primary pull-right">글쓰기</a> 
 	</div>
 
 </body>
